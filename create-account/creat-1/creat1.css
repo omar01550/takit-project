@@ -1,0 +1,193 @@
+
+/*startgloble rules*/
+ 
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-color: #132968;
+    --color-span: #fa6b6b;
+}
+/*end globle rules*/
+.creat {
+    padding: 15px;
+}
+
+.creat .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+/*start content*/
+.creat .container .content {
+    width: 50%;
+    height: 70%;
+padding-top: 60px;
+
+}
+
+.creat .container .content .text-hiding {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 600;
+    padding-bottom: 30px;
+
+}
+
+.content .text-hiding p {
+    color: var(--main-color);
+}
+
+.content .text-hiding p>span {
+    color: var(--color-span);
+}
+
+.content .imge img {
+width: 570px;
+}
+@media (min-width: 768px) and (max-width: 968px) {
+    .content .imge img {
+         width: 300px;
+     }
+}
+@media(max-width:767px){
+    .content .imge img {
+       max-width: 100%;
+    }
+     .container .content{
+         margin-right: 20px;
+         width: 50%;
+     }
+     
+}
+/*start content*/
+
+
+
+.content .text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.content .text p {
+    margin-bottom: 30px;
+    font-size: large;
+    font-weight: 600;
+    flex-wrap: wrap;
+}
+
+.content .text p:nth-child(1) {
+    color: var(--color-span);
+}
+
+.content .text p:nth-child(2) {
+    color: var(--main-color);
+}
+
+.container .creat-input {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container .creat-input .input-group {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.container .creat-input .input-group input {
+    width: 300px;
+    max-width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 12px;
+    background-color:#e6f0fa;
+    border: none;
+}
+.container .creat-input .input-group label{
+    color: var(--main-color);
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+button{
+    background-color: var(--main-color);
+    padding: 13px;
+    border-radius: 30px;
+    width: 250px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+button a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    outline: none;
+}
+.container .creat-input .input-group:nth-last-child(4)::after {
+   content: "";
+   position: absolute;
+   top: 50%;
+   left: 30px;
+   width: 1px;
+   height: 19px;
+   background-color: black;
+   transform: translateX(-50%);
+
+
+}
+.container .creat-input .input-group:nth-last-child(3)::after {
+   content: "";
+   position: absolute;
+   top: 50%;
+   left: 30px;
+   width: 1px;
+   height: 19px;
+   background-color: black;
+   transform: translateX(-50%);
+
+
+}
+.container .creat-input .input-group:nth-last-child(2)::after {
+   content: "";
+   position: absolute;
+   top: 50%;
+   left: 30px;
+   width: 1px;
+   height: 19px;
+   background-color: black;
+   transform: translateX(-50%);
+
+}
+
+.container .creat-input .input-group:nth-last-child(4) i{
+   position: absolute;
+   top: 40px;
+   left: 3;
+   transform: translateY(-50%);
+
+}
+.container .creat-input .input-group:nth-last-child(3) i{
+   position: absolute;
+   top: 40px;
+   left:3px;
+   transform: translateY(-50%);
+
+}
+
+.container .creat-input .input-group:nth-last-child(2) i{
+   position: absolute;
+   top: 40px;
+   left: 3px;
+   transform: translateY(-50%);
+ 
+}
+

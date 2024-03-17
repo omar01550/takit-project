@@ -1,0 +1,161 @@
+
+/*startgloble rules*/
+ 
+ * {
+     padding: 0;
+     margin: 0;
+     box-sizing: border-box;
+ }
+ 
+ :root {
+     --main-color: #132968;
+     --color-span: #fa6b6b;
+ }
+ /*end globle rules*/
+ .creat {
+     padding: 15px;
+ }
+ 
+ .creat .container {
+     width: 100%;
+     height: 100%;
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+ }
+ 
+ .creat .container .content {
+     width: 50%;
+     height: 70%;
+ padding-top: 60px;
+
+ }
+ 
+ .creat .container .content .text-hiding {
+     text-align: center;
+     font-size: xx-large;
+     font-weight: 600;
+     padding-bottom: 30px;
+
+ }
+ 
+ .content .text-hiding p {
+     color: var(--main-color);
+ }
+ 
+ .content .text-hiding p>span {
+     color: var(--color-span);
+ }
+ 
+ .content .imge img {
+ width: 570px;
+ }
+ @media (min-width: 767px)and(max-width: 968px) {
+     .content .imge img {
+          width: 300px;
+      }
+ }
+ @media(max-width:768px){
+     .content .imge img {
+        max-width: 100%;
+     }
+      .container .content{
+          margin-right: 20px;
+      }
+}
+
+
+ 
+ 
+ .content .text {
+     text-align: center;
+     margin-top: 20px;
+ }
+ 
+ .content .text p {
+     margin-bottom: 30px;
+     font-size: large;
+     font-weight: 600;
+     flex-wrap: wrap;
+ }
+ 
+ .content .text p:nth-child(1) {
+     color: var(--color-span);
+ }
+ 
+ .content .text p:nth-child(2) {
+     color: var(--main-color);
+ }
+ 
+ .container .creat-input {
+     display: flex;
+     flex-direction: column;
+
+ }
+ @media(max-width:767px){
+   .container .creat-input{
+    width: 50%;
+   }
+
+}
+
+ 
+ .container .creat-input .input-group {
+     display: flex;
+     flex-direction: column;
+     position: relative;
+
+ }
+ 
+ .container .creat-input .input-group input {
+    width: 300px;
+    max-width: 100%;
+     padding: 10px;
+     margin-bottom: 10px;
+     border-radius: 12px;
+     background-color:#e6f0fa;
+     border: none;
+ }
+
+ .container .creat-input .input-group label{
+     color: var(--main-color);
+     font-weight: 600;
+     margin-bottom: 5px;
+ }
+ .container .creat-input span{
+    color: var(--color-span);
+    font-weight: 900;
+ }
+ button{
+     background-color: var(--main-color);
+   width: 90px;
+   padding: 0 13px;
+   color: white;
+   text-align: center;
+   transform: translateX(215px);
+   border-radius: 10px;
+   cursor: pointer;
+ }
+ @media(max-width:767px){
+    button{
+   transform: translateX(50%);
+
+    }
+ }
+  #main-input input{
+margin: 0 20px;
+    width: 35px;
+
+ }
+ #main-input label{
+    text-align: left;
+    margin-bottom: 2px;
+ }
+ #main-input button{
+    text-align: center;
+    padding: 7px;
+    width: 150px;
+    margin-top: 30px;
+    transform: translateX(-45px);
+    cursor: pointer;
+ }
