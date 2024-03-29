@@ -2,6 +2,7 @@
     padding:0;
     margin:0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 a{
     text-decoration: none;
@@ -10,9 +11,10 @@ a{
     height: 351px;
   background-image: url("./metro.jpg");
   background-size: cover;
+  background-repeat: no-repeat;
   }
    .container p{
-    color:#F1F2F3;
+    color: #F1F2F3;
     text-align: center;
     position: absolute;
     width: 895.7px;
@@ -22,14 +24,13 @@ a{
     font-weight: 700;
     font-size: 39.22px;
     line-height: 48px;
-  }
-  nav{
+   }nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 30px 100px;
-  }
-  .logo{
+   }
+   .logo{
     color: #132968;
     width: 117px;
     height: 49px;
@@ -40,46 +41,32 @@ a{
     font-weight: 700;
     font-size: 40px;
     line-height: 48.41px;
-  }span{
+   }
+   span{
     color: #FA6B6B;
-  }
-  nav ul li{
-    display: inline-block;
-    list-style: none;
-    padding: 10px 30px;
-  }
-  nav ul li a{
+   }
+   nav ul li{
+display: inline-block;
+list-style: none;
+padding: 10px 30px;
+   }
+   nav ul li a{
     color: #ffffff;
     width: 379px;
     height: 46px;
     top: 43px;
     left: 338px;
     gap: 36px;
-    font-weight: 400;
+    font-weight: 400px;
     font-size: 24px;
     line-height: 48px;
-  }
+   }
    .btn-regester{
-      color: #ffffff;
-      background-color: #132968;
-      text-decoration: none;
-      width: 200px;
-      height: 45px;
-      border: none;
-      border-radius: 10px;
-      padding: 16px 29px 16px 29px ;
-      gap: 10px;
-      font-weight: 700;
-      font-size: 20px;
-      align-items: center;
-      text-align: center;
-      line-height: 42px;
-  }
-  .btn-login{
-    color:#132968;
-    background-color: #ffffff;
+    color: #ffffff;
+    background-color: #132968;
     text-decoration: none;
-    width: 120px;
+    display: flex;
+    width: 200px;
     height: 45px;
     border: none;
     border-radius: 10px;
@@ -87,7 +74,69 @@ a{
     gap: 10px;
     font-weight: 700;
     font-size: 20px;
+    align-items: center;
+    text-align: center;
+    line-height: 42px;
+   }
+   .btn-login{
+    color: #132968;
+    background-color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    width: 120px;
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    padding:16px 29px 16px 29px;
+    gap: 10px;
+    font-weight: 700;
+    font-size: 20px;
     text-align: center;
     align-items: center;
     line-height: 42px;
+   }
+   
+   .container-box{
+    background-color:#fda4d5;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 981px;
+    height: 100px;
+    margin: 10px;
+    top: 301px;
+    left: 245px;
+    border-radius: 16px;
+    border: 2px;
+    padding: 15px 15px 0px 15px;
+    gap: 7px;
+    border-color: #FA6B6B;
+   }
+   input{
+    width: 170px;
+  display: flex;
+    height: 70px;
+    top: 301px;
+    left: 245px;
+    border-radius: 16px;
+    padding: 15px 15px 0px 15px;
+    border: 2px;
+    gap: 7px;
+   }
+   .boxx{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+    float: left;
+   }
+  .boxx.mmh.i{
+    width: 24px;
+    height: 24px;
+    position: absolute;
   }
+   
+
+  
+   

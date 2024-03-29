@@ -64,6 +64,7 @@ a{
       color: #ffffff;
       background-color: #132968;
       text-decoration: none;
+      display: flex;
       width: 200px;
       height: 45px;
       border: none;
@@ -80,6 +81,7 @@ a{
     color:#132968;
     background-color: #ffffff;
     text-decoration: none;
+    display: flex;
     width: 120px;
     height: 45px;
     border: none;
