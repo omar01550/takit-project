@@ -3,3 +3,54 @@
     margin:0;
     box-sizing: border-box;
 }
+body{
+    display: flex;
+    height: 100vh;
+    justify-content:center ;
+    align-items: center;
+    padding: 10px;
+    background:#e0e6e7;
+
+}
+img{
+    width: 50px;
+    height: 50px;
+    
+}
+.cont{
+    max-width: 700px;
+    width: 100%;
+    background: #fff;
+    padding: 25px 30px;
+    border-radius: 5px;
+
+}
+.cont .title{
+    font-size: 30px;
+    font-weight: 500;
+    position: relative;
+}
+.cont form .user{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+}
+form .user .input-box{
+    margin-bottom:15px ;
+    width: calc(100% / 2 - 20px);
+}   
+.user .input-box .details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+.user .input-box input {
+    height: 45px;
+    width: 100%;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding-left: 15px;
+    font-size: 16px;
+}

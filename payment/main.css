@@ -3,3 +3,87 @@
     margin:0;
     box-sizing: border-box;
 }
+.div-cros{
+ 
+    width: 1500px;
+    height: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center ;
+    
+    
+  
+  }
+  .axis-1{
+    width: 800px;
+    height: 190px;
+    top: 447px;
+    left: 325px;
+    gap: 0px;
+    margin: 10px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+    background-color:#E4F2FF;
+    
+  }
+  .axis-2{
+    width: 800px;
+  height: 190px;
+  top: 663px;
+  left: 325px;
+  gap: 0px;
+  margin: 10px;
+  border-radius: 8px 0px 0px 0px;
+  opacity: 0px;
+  background-color: #E4F2FF;
+  
+  }
+  .axis-3{
+    width: 800px;
+  height: 190px;
+  top: 879px;
+  left: 325px;
+  gap: 0px;
+  margin: 10px;
+  border-radius: 8px 0px 0px 0px;
+  opacity: 0px;
+  background-color: #E4F2FF;
+  
+  
+  }
+  .axis-4{
+    width: 800px;
+    height: 190px;
+    top: 1095px;
+    left: 325px;
+    gap: 0px;
+    margin: 10px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+   background-color: #E4F2FF; 
+  }
+  .axis-5{
+  
+    width: 800px;
+    height: 190px;
+    top: 1311px;
+    left: 325px;
+    gap: 0px;
+    margin: 10px;
+    border-radius: 8px 0px 0px 0px;
+    opacity: 0px;
+    background-color: #E4F2FF;
+    }
+    .axis-6{
+  
+      width: 800px;
+      height: 190px;
+      top: 1311px;
+      left: 325px;
+      gap: 0px;
+      margin: 10px;
+      border-radius: 8px 0px 0px 0px;
+      opacity: 0px;
+      background-color: #E4F2FF;
+      }
